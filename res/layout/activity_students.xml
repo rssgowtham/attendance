@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Students">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@drawable/img">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollY="20dp">
+
+            <LinearLayout
+                android:id="@+id/rollGrid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="1"
+                        android:focusable="true"
+                        android:textSize="50dp"
+                        android:onClick="roll1"/>
+
+                    <Button
+                        android:id="@+id/roll2"
+                        android:layout_width="0dp"
+                        android:focusable="true"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="2"
+                        android:textSize="50dp"
+                        android:onClick="roll2"/>
+
+                    <Button
+                        android:id="@+id/roll3"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="3"
+                        android:textSize="50dp"
+                        android:onClick="roll3"/>
+
+                    <Button
+                        android:id="@+id/roll4"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="4"
+                        android:textSize="50dp"
+                        android:onClick="roll4"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll5"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="5"
+                        android:textSize="50dp"
+                        android:onClick="roll5"/>
+
+                    <Button
+                        android:id="@+id/roll6"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="6"
+                        android:textSize="50dp"
+                        android:onClick="roll6"/>
+
+                    <Button
+                        android:id="@+id/roll7"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="7"
+                        android:textSize="50dp"
+                        android:onClick="roll7"/>
+
+                    <Button
+                        android:id="@+id/roll8"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="8"
+                        android:textSize="50dp"
+                        android:onClick="roll8"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll9"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="9"
+                        android:textSize="50dp"
+                        android:onClick="roll9"/>
+
+                    <Button
+                        android:id="@+id/roll10"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="10"
+                        android:textSize="50dp"
+                        android:onClick="roll10"/>
+
+                    <Button
+                        android:id="@+id/roll11"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="11"
+                        android:textSize="50dp"
+                        android:onClick="roll11"/>
+
+                    <Button
+                        android:id="@+id/roll12"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="12"
+                        android:textSize="50dp"
+                        android:onClick="roll12"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll13"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="13"
+                        android:textSize="50dp"
+                        android:onClick="roll13"/>
+
+                    <Button
+                        android:id="@+id/roll14"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="14"
+                        android:textSize="50dp"
+                        android:onClick="roll14"/>
+
+                    <Button
+                        android:id="@+id/roll15"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="15"
+                        android:textSize="50dp"
+                        android:onClick="roll15"/>
+
+                    <Button
+                        android:id="@+id/roll16"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="16"
+                        android:textSize="50dp"
+                        android:onClick="roll16"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll17"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="17"
+                        android:textSize="50dp"
+                        android:onClick="roll17"/>
+
+                    <Button
+                        android:id="@+id/roll18"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="18"
+                        android:textSize="50dp"
+                        android:onClick="roll18"/>
+
+                    <Button
+                        android:id="@+id/roll19"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="19"
+                        android:textSize="50dp"
+                        android:onClick="roll19"/>
+
+                    <Button
+                        android:focusable="true"
+                        android:id="@+id/roll20"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="20"
+                        android:textSize="50dp"
+                        android:onClick="roll20"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll21"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="21"
+                        android:textSize="50dp"
+                        android:onClick="roll21"/>
+
+                    <Button
+                        android:id="@+id/roll22"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="22"
+                        android:textSize="50dp"
+                        android:onClick="roll22"/>
+
+                    <Button
+                        android:id="@+id/roll23"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="23"
+                        android:textSize="50dp"
+                        android:onClick="roll23"/>
+
+                    <Button
+                        android:id="@+id/roll24"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="24"
+                        android:textSize="50dp"
+                        android:onClick="roll24"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll25"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="25"
+                        android:textSize="50dp"
+                        android:onClick="roll25"/>
+
+                    <Button
+                        android:id="@+id/roll26"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="26"
+                        android:textSize="50dp"
+                        android:onClick="roll26"/>
+
+                    <Button
+                        android:id="@+id/roll27"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="27"
+                        android:textSize="50dp"
+                        android:onClick="roll27"/>
+
+                    <Button
+                        android:id="@+id/roll28"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="28"
+                        android:textSize="50dp"
+                        android:onClick="roll28"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll29"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="29"
+                        android:textSize="50dp"
+                        android:onClick="roll29"/>
+
+                    <Button
+                        android:id="@+id/roll30"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="30"
+                        android:textSize="50dp"
+                        android:onClick="roll30"/>
+
+                    <Button
+                        android:id="@+id/roll31"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="31"
+                        android:textSize="50dp"
+                        android:onClick="roll31"/>
+
+                    <Button
+                        android:id="@+id/roll32"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="32"
+                        android:textSize="50dp"
+                        android:onClick="roll32"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rollRow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll33"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="33"
+                        android:textSize="50dp"
+                        android:onClick="roll33"/>
+
+                    <Button
+                        android:id="@+id/roll34"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="34"
+                        android:textSize="50dp"
+                        android:onClick="roll34"/>
+
+                    <Button
+                        android:id="@+id/roll35"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="35"
+                        android:textSize="50dp"
+                        android:onClick="roll35"/>
+
+                    <Button
+                        android:id="@+id/roll36"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="36"
+                        android:textSize="50dp"
+                        android:onClick="roll36"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll37"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="37"
+                        android:textSize="50dp"
+                        android:onClick="roll37"/>
+
+                    <Button
+                        android:id="@+id/roll38"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="38"
+                        android:textSize="50dp"
+                        android:onClick="roll38"/>
+
+                    <Button
+                        android:id="@+id/roll39"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="39"
+                        android:textSize="50dp"
+                        android:onClick="roll39"/>
+
+                    <Button
+                        android:id="@+id/roll40"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="40"
+                        android:textSize="50dp"
+                        android:onClick="roll40"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll41"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="41"
+                        android:textSize="50dp"
+                        android:onClick="roll41"/>
+
+                    <Button
+                        android:id="@+id/roll42"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="42"
+                        android:textSize="50dp"
+                        android:onClick="roll42"/>
+
+                    <Button
+                        android:id="@+id/roll43"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="43"
+                        android:textSize="50dp"
+                        android:onClick="roll43"/>
+
+                    <Button
+                        android:id="@+id/roll44"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="44"
+                        android:textSize="50dp"
+                        android:onClick="roll44"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow12"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll45"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="45"
+                        android:textSize="50dp"
+                        android:onClick="roll45"/>
+
+                    <Button
+                        android:id="@+id/roll46"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="46"
+                        android:textSize="50dp"
+                        android:onClick="roll46"/>
+
+                    <Button
+                        android:id="@+id/roll47"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="47"
+                        android:textSize="50dp"
+                        android:onClick="roll47"/>
+
+                    <Button
+                        android:id="@+id/roll48"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="48"
+                        android:textSize="50dp"
+                        android:onClick="roll48"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow13"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll49"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="49"
+                        android:textSize="50dp"
+                        android:onClick="roll49"/>
+
+                    <Button
+                        android:id="@+id/roll50"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="50"
+                        android:textSize="50dp"
+                        android:onClick="roll50"/>
+
+                    <Button
+                        android:id="@+id/roll51"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="51"
+                        android:textSize="50dp"
+                        android:onClick="roll51"/>
+
+                    <Button
+                        android:id="@+id/roll52"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="52"
+                        android:textSize="50dp"
+                        android:onClick="roll52"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow14"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll53"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="53"
+                        android:textSize="50dp"
+                        android:onClick="roll53"/>
+
+                    <Button
+                        android:id="@+id/roll54"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="54"
+                        android:textSize="50dp"
+                        android:onClick="roll54"/>
+
+                    <Button
+                        android:id="@+id/roll55"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="55"
+                        android:textSize="50dp"
+                        android:onClick="roll55"/>
+
+                    <Button
+                        android:id="@+id/roll56"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="56"
+                        android:textSize="50dp"
+                        android:onClick="roll56"/>
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rollRow15"
+                    android:focusable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/roll57"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="57"
+                        android:textSize="50dp"
+                        android:onClick="roll57"/>
+
+                    <Button
+                        android:id="@+id/roll58"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="58"
+                        android:textSize="50dp"
+                        android:onClick="roll58"/>
+
+                    <Button
+                        android:id="@+id/roll59"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="59"
+                        android:textSize="50dp"
+                        android:onClick="roll59"/>
+
+                    <Button
+                        android:id="@+id/roll60"
+                        android:focusable="true"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="9dp"
+                        android:layout_weight="1"
+                        android:background="#00FF00"
+                        android:text="60"
+                        android:textSize="50dp"
+                        android:onClick="roll60"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

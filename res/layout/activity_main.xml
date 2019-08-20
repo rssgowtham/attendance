@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="@drawable/img">
+        <Button
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:text="FIRST YEAR"
+            android:textSize="40dp"
+            android:background="#7000"
+            android:onClick="cse1Year"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="40dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="SECOND YEAR"
+            android:background="#f0f000"
+            android:onClick="cse2Year"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:text="THIRD YEAR"
+            android:background="#00f000"
+            android:onClick="cse3Year"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:textSize="40dp"
+            android:text="FOURTH YEAR"
+            android:background="#f0ff"
+            android:onClick="cse4Year"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
